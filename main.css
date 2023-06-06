@@ -16,25 +16,29 @@ header,
 section h2,
 section h3,
 form button{
-    font-family: 'Bungee', cursive;
+    font-family: 'Robotica', sans-serif;
     font-weight: normal;
 }
 
 header{
     padding: 16px 0;
-    background-color: #182c61;
+    background-color: #000000;
     color: #ecf0f1;
 }
 
 header nav li{
     display: inline;
-    margin-left: 16px;
+    margin-left: 66px;
     font-size: 18px;
 }
 
 header nav li a{
     color: #ecf0f1;
     text-decoration: none;
+}
+
+header nav li a:hover{
+    color: #f3361d;
 }
 
 .container{
@@ -50,8 +54,11 @@ section .container{
     justify-content: space-between;
 }
 
+header .container img{
+    width: 300px;
+}
 .brands-list img{
-    height: 24px;
+    height: 60px;
 }
 
 .brands-list li{
@@ -72,7 +79,7 @@ section h2{
 }
 
 section{
-    color: #182c61;
+    color: #000;
 }
 
 section p{
@@ -80,7 +87,9 @@ section p{
 }
 
 .store-front{
+    margin-top: 60px;
     margin-right: 32px;
+    width: 600px;
 }
 
 .social-links img{
@@ -124,22 +133,22 @@ section h3{
 }
 
 form button{
-    background-color: #182c61;
+    background-color: #000;
     color: #fff;
     border: none;
     cursor: pointer;
 }
 
 form button:hover{
-    background-color: #314e9e;
+    background-color: #f3361d;
 }
 
 input, textarea:focus{
-    outline-color: #182c61;
+    outline-color: #000;
 }
 
 footer{
-    background-color: #182c61;
+    background-color: #000;
     color: #ecf0f1;
     padding: 16px 0;
 }
